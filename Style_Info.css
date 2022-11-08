@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.infoImg{
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-bottom: 6%;
+}
+
+@media(max-width:900px) {
+  .infoImg{
+    display: block;
+
+    margin-top: 0;
+    margin-bottom: 9%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0;
+
+    width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.tableYear{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tableBio{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.musicLink:hover{
+  text-decoration: line-through;
+}
+
+.musicIcon{
+  width: 2.5%;
+}
+
+@media(max-width:900px) {
+  .tableYear{
+    font-size: 13px;
+    font-weight: bold;
+
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .tableBio{
+    font-size: 12px;
+    text-align: left;
+
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .musicIcon{
+    width: 4.5%;
+  }
+
+}

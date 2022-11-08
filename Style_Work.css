@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+#workGrid{
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  margin-bottom: 8%;
+}
+
+.workTitle{
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+
+  margin-top: 44%;
+
+  height: 10%;
+}
+
+.workInfo{
+  font-size: 11px;
+  font-weight: lighter;
+
+  margin-top: 3%;
+}
+
+.workImg{
+  width: 100%;
+  margin-left: 20%;
+}
+
+.workAboutTitle{
+  font-size: 24px;
+
+  margin-top:0.7%;
+}
+
+.workAboutInfo{
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+
+  padding-top: 7%;
+  padding-bottom: 0%;
+}
+
+.workAboutBio{
+  font-size: 14px;
+  text-align: left;
+
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.workAboutStream{
+  font-weight: bold;
+}
+
+.workAboutStream:hover{
+  text-decoration: line-through;
+}
+
+.workAboutImg{
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.workAboutVideo{
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+@media(max-width:900px) {
+  #workGrid{
+    display: block;
+    margin-bottom: 8%;
+    margin-left: 1.5%;
+  }
+
+  .workTitle{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+
+    margin-top: 3%;
+    padding-left: 0;
+
+    height: 10%;
+  }
+
+  .workInfo{
+    font-size: 6px;
+    font-weight: lighter;
+
+    margin-top: 0.5%;
+    margin-bottom: 3%;
+  }
+
+  .workImg{
+    width: 85%;
+
+    margin: 0;
+    padding-left: 7%;
+  }
+
+  .workAboutTitle{
+    font-size: 16px;
+
+    margin-top:0.7%;
+  }
+
+  .workAboutContents{
+    font-size: 13px;
+  }
+
+  .workAboutInfo{
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+
+    padding-top: 7%;
+    padding-bottom: 0%;
+  }
+
+  .workAboutBio{
+    font-size: 11px;
+    text-align: left;
+
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+
+  .workAboutStream{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .workAboutImg{
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+    width: 80%;
+  }
+
+  .workAboutVideo{
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+    width: 80%;
+    height: 60%;
+  }
+}
