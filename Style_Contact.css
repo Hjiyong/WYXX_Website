@@ -80,9 +80,19 @@
 }
 
 @media(max-width:900px) {
+  .decoImg{
+    top: 24%;
+    transform: translate(-50%, 0%);
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+  }
+
   .contact {
     font-size: 100%;
-    margin-top: 20%;
+    margin-top: 90%;
   }
 
   .snsList{
@@ -98,7 +108,7 @@
   }
 
   .snsImg{
-    width: 18px;
+    width: 15px;
   }
 
   .push{
@@ -108,15 +118,5 @@
   .samplePack{
     width: 3%;
     margin-top: 6%;
-  }
-
-  .decoImg{
-    top: 55%;
-    transform: translate(-50%, 0%);
-
-    margin: 0;
-    padding: 0;
-
-    width: 100%;
   }
 }
