@@ -7,7 +7,7 @@
 
 .head {
   color: rgb(245, 245, 245);
-  font-size: 34px;
+  font-size: 20px;
   font-weight: lighter;
   text-align: center;
 
@@ -25,8 +25,8 @@
 }
 
 .headList {
-  font-size: 18px;
-  font-weight: lighter;
+  font-size: 14px;
+  font-weight: normal;
   text-align: center;
 
   margin-top: 8%;
@@ -55,7 +55,7 @@
   }
 
   .head {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: lighter;
     text-align: center;
 
@@ -70,7 +70,7 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     text-align: center;
 

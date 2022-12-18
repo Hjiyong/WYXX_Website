@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 .workAboutTitle{
-  font-size: 24px;
+  font-size: 18px;
 
   margin-top:0.7%;
 }
 
 .workAboutInfo{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
 
   padding-top: 7%;
@@ -69,13 +69,13 @@
   }
 
   .workAboutTitle{
-    font-size: 16px;
+    font-size: 12px;
 
     margin-top:0.7%;
   }
 
   .workAboutContents{
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .workAboutInfo{
