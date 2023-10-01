@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.coverImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+
+  width: 25%;
+}
+
+.albumTitle{
+  font-size: 15px;
+  font-weight: normal;
+  text-align: justify;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.streamingList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1.5%;
+  margin-bottom: 0.4%;
+  padding-left: 2.5%;
+}
+
+.stList{
+  padding-right: 2.5%;
+  padding-bottom: 1.5%;
+}
+
+.stImg{
+  padding: 0;
+  width: 30px;
+}
+
+.musicVideo{
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+@media(max-width:900px) {
+  .coverImg{
+    width: 60%;
+  }
+
+  .albumTitle{
+    font-size: 90%;
+  }
+
+  .streamingList{
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+    padding-left: 9%;
+  }
+
+  .stList {
+    padding-right: 8%;
+    padding-bottom: 3%;
+  }
+
+  .stImg{
+    width: 25px;
+  }
+
+  .musicVideo{
+    margin-top: 10%;
+
+    width: 80%;
+    height: 80%;
+  }
+}
