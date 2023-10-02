@@ -15,7 +15,7 @@
 }
 
 .iconImg{
-  width:12px;
+  width:16px;
 }
 
 @media(max-width:900px) {
@@ -29,6 +29,6 @@
   }
 
   .iconImg{
-    width:10px;
+    width:14px;
   }
 }
