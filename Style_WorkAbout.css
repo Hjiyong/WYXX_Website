@@ -1,9 +1,14 @@
 @charset "utf-8";
 
 .workAboutTitle{
-  font-size: 18px;
+  font-size: 16px;
 
   margin-top:0.7%;
+  padding-bottom: 0%;
+}
+
+.workAboutContents{
+  font-size: 13.2px;
 }
 
 .workAboutInfo{
@@ -112,6 +117,6 @@
     margin-bottom: 6%;
 
     width: 80%;
-    height: 60%;
+    height: 80%;
   }
 }

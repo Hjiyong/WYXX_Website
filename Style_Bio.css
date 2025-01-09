@@ -1,4 +1,25 @@
 @charset "utf-8";
+.bioContents {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: justify;
+
+  line-height: 1.7;
+
+  margin-left: 25%;
+  margin-right: 25%;
+
+  padding-bottom: 1%;
+}
+
+.bioSubTitle {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  /* text-align: center; */
+
+  padding-bottom: 1%;
+}
 
 .tableYear{
   font-size: 14px;
@@ -19,6 +40,24 @@
 }
 
 @media(max-width:900px) {
+  .bioContents{
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.5;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    margin-bottom: 0;
+    padding-bottom: 1;
+  }
+
+  .bioSubTitle {
+    font-size: 12px;
+
+    padding-bottom: 0%;
+  }
+
   .tableYear{
     font-size: 12px;
     font-weight: bold;
@@ -31,7 +70,7 @@
     font-size: 8px;
     text-align: left;
 
-    margin-left: 5%;
+    margin-left: 0%;
     margin-right: 5%;
   }
 
